@@ -1,0 +1,6 @@
+backend/*
+frontend/*
+landing/*
+mobile/*
+.vscode/*
+front-landing.code-workspace
