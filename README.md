@@ -2,6 +2,8 @@
 
 La idea es hacer un ECommerce que tenga una SPA como Frontend y un Backend de micro-servicios con API REST. Usar SQL y NoSQL para la base de datos según el uso que sea necesario.
 
+![Diagram ](./Diagram.svg)
+
 ## FrontEnd
 
 App (Sin empezar): [Git Repo](https://github.com/Joacohbc/ecommerce-frontend)
