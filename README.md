@@ -64,11 +64,15 @@ Un Backend que no sea monolítico, que sea parte de una arquitectura de micro-se
 - Order Service
     1. Orders
     2. Payments (create and calculate but no process the pay)
-    3. Shipping
-    4. Invoices
-    5. Returns
-    6. Refunds
-    7. Cancellations
+    3. Invoices
+    4. Returns
+    5. Refunds
+    6. Cancellations
+- Shipping Service
+    1. Shipping
+    2. Tracking
+    3. Delivery
+    4. Pickup
 - Customer Service: manage information, configurations and session of Customers only
 - Users Service (OAuth, JWT, LDAP): Authentication of all users
 - Stores Service
