@@ -2,7 +2,7 @@
 
 La idea es hacer un ECommerce que tenga una SPA como Frontend y un Backend de micro-servicios con API REST. Usar SQL y NoSQL para la base de datos según el uso que sea necesario.
 
-![Diagram ](./Diagram.svg)
+![Diagram](./Diagram.svg)
 
 ## FrontEnd
 
@@ -52,40 +52,6 @@ Un Backend que no sea monolítico, que sea parte de una arquitectura de micro-se
 - Sistema de Internacionalización (multi-idioma)
 - Sistema de Pruebas Unitarias y de Integración
 - Documentación de la API
-
-### Micro-servicios
-
-- Products & Tags Service
-    1. Products
-    2. Categories
-    3. Tags
-    4. Price
-    5. Video & Images
-- Order Service
-    1. Orders
-    2. Payments (create and calculate but no process the pay)
-    3. Invoices
-    4. Returns
-    5. Refunds
-    6. Cancellations
-- Shipping Service
-    1. Shipping
-    2. Tracking
-    3. Delivery
-    4. Pickup
-- Customer Service: manage information, configurations and session of Customers only
-- Users Service (OAuth, JWT, LDAP): Authentication of all users
-- Stores Service
-    1. Stock per Stock
-    2. Pricing per Stock
-- Cart Service
-    1. Cart
-    2. Wishlist
-- Recommendation and Search Service: generate recommendations to each customer
-- Payment Service: Process all payments in the app
-- Content Media Service
-- Reviews & Ratings Service: Manage review and rating from all micro-services entities. (products, stores, payments, etc)
-- Discounts & Promotions Service: Create, customize and schedule discounts and promotions of  the Products for the diferentes stores
 
 ## Base de Datos
 
